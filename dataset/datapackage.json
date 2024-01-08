@@ -1,0 +1,58 @@
+{
+  "name": "bolsas-cotas-concedidas",
+  "owner_org": "fundacao-de-amparo-a-pesquisa-fapemig",
+  "profile": "data-package",
+  "resources": [
+    {
+      "description": "Insira a descrição/explicação detalhada deste recurso.",
+      "dialect": {
+        "delimiter": ";"
+      },
+      "encoding": "utf-8-sig",
+      "format": "csv",
+      "hashing": "md5",
+      "name": "bolsas-cotas-concedidas",
+      "path": "data/bolsas-cotas-concedidas.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "ano",
+            "type": "integer"
+          },
+          {
+            "name": "instituicaoexecutora_sigla",
+            "type": "string"
+          },
+          {
+            "name": "instituicaoexecutora_nome",
+            "type": "string"
+          },
+          {
+            "name": "programa",
+            "type": "string"
+          },
+          {
+            "name": "idbolsa",
+            "type": "integer"
+          },
+          {
+            "name": "bolsista",
+            "type": "string"
+          },
+          {
+            "name": "valortotalprevisto",
+            "type": "string"
+          },
+          {
+            "name": "datadisponibilizacao",
+            "type": "date"
+          }
+        ]
+      },
+      "scheme": "file",
+      "title": "Insira um título humanamente legível para este recurso."
+    }
+  ],
+  "title": "Bolsas cotas concedidas"
+}
