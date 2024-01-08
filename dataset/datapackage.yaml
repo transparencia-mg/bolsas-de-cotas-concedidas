@@ -2,7 +2,8 @@ name: bolsas-cotas-concedidas
 owner_org: fundacao-de-amparo-a-pesquisa-fapemig
 profile: data-package
 resources:
-  - description: Insira a descrição/explicação detalhada deste recurso.
+  - description: >
+       Este conjunto de dados detalha as bolsas concedidas ao longo do tempo, sendo de relevância significativa para pesquisadores, estudantes e interessados no cenário da pesquisa em Minas Gerais.
     dialect:
       delimiter: ;
     encoding: utf-8-sig
@@ -15,20 +16,48 @@ resources:
       fields:
         - name: ano
           type: integer
+          description: Ano de recebimento da primeira parcela pelo bolsista.
+          title: Ano   
+          format: default
         - name: instituicaoexecutora_sigla
           type: string
+          description: >
+            Sigra da instituição responsável pelo desenvolvimento do projeto e onde ocorrerão as principais atividades de pesquisa, que pode ser uma universidade, centro de pesquisa, empresa, etc.
+          title: Instituição Executora - Sigla
+          format: default
         - name: instituicaoexecutora_nome
           type: string
+          description: >
+            Descrição da instituição responsável pelo desenvolvimento do projeto e onde ocorrerão as principais atividades de pesquisa, que pode ser uma universidade, centro de pesquisa, empresa, etc.
+          title: Instituição Executora
+          format: default
         - name: programa
           type: string
+          description: >
+            Refere-se ao programa ao qual a chamada se vincula, auxiliando na categorização e organização dos projetos de acordo com seus temas.
+          title: Programa
+          format: default
         - name: idbolsa
           type: integer
+          description: >
+           ID da bolsa
+          title: ID da bolsa
+          format: default
         - name: bolsista
           type: string
+          description: >
+              Nome do beneficiado com a bolsa de cota, geralmente um estudante ou pesquisador designado para realizar estudos em sua área de atuação.
+          title: Bolsita
         - name: valortotalprevisto
           type: string
+          description: >
+              Valor total previsto.
+          title: Valor Total Previsto
         - name: datadisponibilizacao
           type: date
+          description: >
+              A data de publicação das informações sobre o projeto.
+          title: Data de Disponibilização
     scheme: file
-    title: Insira um título humanamente legível para este recurso.
+    title: Bolsas / Cotas concedidas
 title: Bolsas cotas concedidas
