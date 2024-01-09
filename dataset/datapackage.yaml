@@ -51,7 +51,7 @@ resources:
         - name: valortotalprevisto
           type: string
           description: >
-             Indica o montante financeiro total previsto para ser concedido ao bolsista, durante a vigência da bolsa.
+             Indica o montante financeiro total previsto para ser concedido ao bolsista, durante a vigência da bolsa
           title: Valor Total Previsto
         - name: datadisponibilizacao
           type: date
