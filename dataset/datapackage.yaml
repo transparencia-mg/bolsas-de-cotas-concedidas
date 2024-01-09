@@ -22,7 +22,7 @@ resources:
         - name: instituicaoexecutora_sigla
           type: string
           description: >
-            Sigra da instituição responsável pelo desenvolvimento do projeto e onde ocorrerão as principais atividades de pesquisa, que pode ser uma universidade, centro de pesquisa, empresa, etc.
+            Sigla da instituição que oferta o programa de bolsa
           title: Instituição Executora - Sigla
           format: default
         - name: instituicaoexecutora_nome
