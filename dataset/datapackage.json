@@ -26,7 +26,7 @@
           {
             "name": "instituicaoexecutora_sigla",
             "type": "string",
-            "description": "Sigra da instituição responsável pelo desenvolvimento do projeto e onde ocorrerão as principais atividades de pesquisa, que pode ser uma universidade, centro de pesquisa, empresa, etc.\n",
+            "description": "Sigla da instituição que oferta o programa de bolsa\n",
             "title": "Instituição Executora - Sigla",
             "format": "default"
           },
