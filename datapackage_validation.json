@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 1.701,
+  "time": 1.736,
   "errors": [],
   "tasks": [
     {
@@ -61,7 +61,7 @@
             {
               "name": "valortotalprevisto",
               "type": "string",
-              "description": "Valor total previsto.\n",
+              "description": "Indica o montante financeiro total previsto para ser concedido ao bolsista, durante a vigência da bolsa\n",
               "title": "Valor Total Previsto"
             },
             {
@@ -81,7 +81,7 @@
           "rows": 65535
         }
       },
-      "time": 1.691,
+      "time": 1.726,
       "scope": [
         "hash-count-error",
         "byte-count-error",
