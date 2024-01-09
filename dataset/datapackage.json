@@ -19,7 +19,7 @@
           {
             "name": "ano",
             "type": "integer",
-            "description": "Ano de recebimento da primeira parcela pelo bolsista.",
+            "description": "Ano de vencimento da parcela.",
             "title": "Ano",
             "format": "default"
           },
@@ -60,7 +60,7 @@
           {
             "name": "valortotalprevisto",
             "type": "string",
-            "description": "Indica o montante financeiro total previsto para ser concedido ao bolsista, durante a vigência da bolsa\n",
+            "description": "Valor total previsto.\n",
             "title": "Valor Total Previsto"
           },
           {
