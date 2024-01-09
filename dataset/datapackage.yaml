@@ -16,7 +16,7 @@ resources:
       fields:
         - name: ano
           type: integer
-          description: Ano de recebimento da primeira parcela pelo bolsista.
+          description: Ano de vencimento da parcela.
           title: Ano
           format: default
         - name: instituicaoexecutora_sigla
