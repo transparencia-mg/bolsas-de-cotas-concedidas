@@ -16,37 +16,37 @@ resources:
       fields:
         - name: ano
           type: integer
-          description: Ano de vencimento da parcela.
-          title: Ano   
+          description: Ano de recebimento da primeira parcela pelo bolsista.
+          title: Ano
           format: default
         - name: instituicaoexecutora_sigla
           type: string
           description: >
-             Sigla da instituição que oferta o programa de bolsa.
+            Sigra da instituição responsável pelo desenvolvimento do projeto e onde ocorrerão as principais atividades de pesquisa, que pode ser uma universidade, centro de pesquisa, empresa, etc.
           title: Instituição Executora - Sigla
           format: default
         - name: instituicaoexecutora_nome
           type: string
           description: >
-              Nome da instituição que oferta o programa de bolsa.
+            Descrição da instituição responsável pelo desenvolvimento do projeto e onde ocorrerão as principais atividades de pesquisa, que pode ser uma universidade, centro de pesquisa, empresa, etc.
           title: Instituição Executora
           format: default
         - name: programa
           type: string
           description: >
-            Refere-se ao nome do programa, celebrado entre a FAPEMIG e a instituição executora, ao qual o bolsista está vinculado.
+            Refere-se ao programa ao qual a chamada se vincula, auxiliando na categorização e organização dos projetos de acordo com seus temas.
           title: Programa
           format: default
         - name: idbolsa
           type: integer
           description: >
-           Identificação única ou código atribuído à bolsa dentro do sistema de gerenciamento do programa.
+           ID da bolsa
           title: ID da bolsa
           format: default
         - name: bolsista
           type: string
           description: >
-             Nome da pessoa que recebeu a bolsa, ou seja, do bolsista selecionado para o programa.
+              Nome do beneficiado com a bolsa de cota, geralmente um estudante ou pesquisador designado para realizar estudos em sua área de atuação.
           title: Bolsita
         - name: valortotalprevisto
           type: string
@@ -56,7 +56,7 @@ resources:
         - name: datadisponibilizacao
           type: date
           description: >
-              Quando os dados foram extraídos do sistema de gestão da FAPEMIG.
+              A data de publicação das informações sobre o projeto.
           title: Data de Disponibilização
     scheme: file
     title: Bolsas de cotas concedidas
