@@ -60,7 +60,7 @@
           {
             "name": "valortotalprevisto",
             "type": "string",
-            "description": "Valor total previsto.\n",
+            "description": "Indica o montante financeiro total previsto para ser concedido ao bolsista, durante a vigência da bolsa\n",
             "title": "Valor Total Previsto"
           },
           {
