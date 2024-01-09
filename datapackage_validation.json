@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 1.736,
+  "time": 1.714,
   "errors": [],
   "tasks": [
     {
@@ -20,7 +20,7 @@
             {
               "name": "ano",
               "type": "integer",
-              "description": "Ano de recebimento da primeira parcela pelo bolsista.",
+              "description": "Ano de vencimento da parcela.",
               "title": "Ano",
               "format": "default"
             },
@@ -61,7 +61,7 @@
             {
               "name": "valortotalprevisto",
               "type": "string",
-              "description": "Indica o montante financeiro total previsto para ser concedido ao bolsista, durante a vigência da bolsa\n",
+              "description": "Valor total previsto.\n",
               "title": "Valor Total Previsto"
             },
             {
@@ -81,7 +81,7 @@
           "rows": 65535
         }
       },
-      "time": 1.726,
+      "time": 1.703,
       "scope": [
         "hash-count-error",
         "byte-count-error",
