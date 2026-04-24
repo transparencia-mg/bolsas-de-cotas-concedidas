@@ -1,11 +1,10 @@
 {
   "version": "4.16.6",
-  "time": 3.939,
+  "time": 3.332,
   "errors": [],
   "tasks": [
     {
       "resource": {
-        "description": "Este conjunto de dados detalha as bolsas concedidas ao longo do tempo, sendo de relevância significativa para pesquisadores, estudantes e interessados no cenário da pesquisa em Minas Gerais.\n",
         "dialect": {
           "delimiter": ";"
         },
@@ -81,7 +80,7 @@
           "rows": 131143
         }
       },
-      "time": 3.927,
+      "time": 3.321,
       "scope": [
         "hash-count-error",
         "byte-count-error",
