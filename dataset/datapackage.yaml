@@ -2,9 +2,7 @@ name: bolsas-cotas-concedidas
 owner_org: fundacao-de-amparo-a-pesquisa-fapemig
 profile: data-package
 resources:
-  - description: >
-       Este conjunto de dados detalha as bolsas concedidas ao longo do tempo, sendo de relevância significativa para pesquisadores, estudantes e interessados no cenário da pesquisa em Minas Gerais.
-    dialect:
+  - dialect:
       delimiter: ;
     encoding: utf-8-sig
     format: csv
@@ -60,4 +58,4 @@ resources:
           title: Data de Disponibilização
     scheme: file
     title: Bolsas de cotas concedidas
-title: Bolsas cotas concedidas
+title: Bolsas de Cotas Concedidas
