@@ -4,7 +4,6 @@
   "profile": "data-package",
   "resources": [
     {
-      "description": "Este conjunto de dados detalha as bolsas concedidas ao longo do tempo, sendo de relevância significativa para pesquisadores, estudantes e interessados no cenário da pesquisa em Minas Gerais.\n",
       "dialect": {
         "delimiter": ";"
       },
@@ -75,5 +74,5 @@
       "title": "Bolsas de cotas concedidas"
     }
   ],
-  "title": "Bolsas cotas concedidas"
+  "title": "Bolsas de Cotas Concedidas"
 }
