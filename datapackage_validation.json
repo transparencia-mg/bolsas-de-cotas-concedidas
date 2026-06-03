@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 3.332,
+  "time": 3.651,
   "errors": [],
   "tasks": [
     {
@@ -74,13 +74,13 @@
         "scheme": "file",
         "title": "Bolsas de cotas concedidas",
         "stats": {
-          "hash": "170cbeace5d576470dcf67aab3cd86fc",
-          "bytes": 20255806,
+          "hash": "556d425bc9169ca5866df0595f434762",
+          "bytes": 20404023,
           "fields": 8,
-          "rows": 131143
+          "rows": 132073
         }
       },
-      "time": 3.321,
+      "time": 3.639,
       "scope": [
         "hash-count-error",
         "byte-count-error",
